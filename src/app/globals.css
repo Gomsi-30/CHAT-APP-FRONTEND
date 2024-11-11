@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers */
+  }
+  
+  /* For Firefox */
+  body {
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* loader.css */
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #e002f9; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
