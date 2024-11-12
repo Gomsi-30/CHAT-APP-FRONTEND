@@ -8,3 +8,6 @@ export const NEW_ATTACHMENTS = 'NEW_ATTACHMENTS'
 export const NEW_REQUEST = 'NEW_REQUEST'
 
 export const NEW_MESSAGE = 'NEW_MESSAGE'
+
+export const START_TYPING = 'START_TYPING'
+export const STOP_TYPING = 'STOP_TYPING'
